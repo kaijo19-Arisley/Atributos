@@ -1,0 +1,155 @@
+.Mapa{
+	text-align: center;
+}
+.Morte{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+.CaixaBiografia {
+	background-color: white;
+	width: 90%;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin-bottom: 10%;
+}
+.CaixaPrincipal {
+	background-color: lightgray;
+	width: 90%;
+	min-height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 20px black;
+	border-radius: 15px;
+	padding: 10px;
+}
+header {
+	background-color: whitesmoke;
+	min-height: 150px;
+	border-radius: 20px;
+	border-bottom: 2px solid black;
+	padding: 20px;
+}
+header a {
+	position: relative;
+	color: black;
+	font-size: 130%;
+	padding: 20px;
+	background-color: seashell;
+	margin: 2px;
+	border-radius: 30%;
+	text-decoration: none;
+	border: 2px solid black;
+	float: right;
+}
+header h1 {
+	position: relative;
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 5%;
+	vertical-align: top;
+	font-size: 60px;
+	text-shadow: 2px 2px 9px black;
+}
+header img {
+	position: relative;
+	display: inline-block;
+	min-width: 30%;
+	width: 30%;
+	font-size: 22px;
+	color: blue;
+	background: black;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px black;
+}
+main {
+	margin-top: 5%;
+	width: 100%;
+}
+main iframe {
+	display: inline-block;
+	position: relative;
+	width: 50%;
+	min-height: 400px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px 10px gray;
+}
+main h1 {
+	font-size: 300%;
+	color: white;
+	margin-left: 15%;
+	text-shadow: 0px 1px 2px black;
+	text-decoration: underline;
+}
+main div strong p a img {
+	margin-right: 0.5%;
+	width: 6%;
+	box-shadow: 2px 2px 6px black;
+	transition: 2s;
+}
+main div strong p a img:firt {
+	margin-right: 0.2%;
+}
+main div strong p a img:hover {
+	margin-right: 0.5%;
+	width: 6%;
+	box-shadow: 0px 0px 0px 10px gray;
+}
+main div p {
+	font-size: 120%;
+	margin: 0 0 2% 3%;
+}
+main div p strong {
+	font-style: italic;
+}
+main div strong p a {
+	font-style: oblique;
+	color: black;
+	text-shadow: 2px 2px 40px blueviolet;
+}
+.Biografia {
+	font-size: 200%;
+	width: 70%;
+	position: relative;
+	text-align: center;
+	color: black;
+	border-radius: 20px;
+	background-color: lightgrey;
+	border: 2px solid black;
+	margin: auto;
+}
+main div p {
+	font-size: 150%;
+}
+@media screen and (max-width: 600px) {
+main iframe {
+	width: 100%;
+	min-height: 300px;
+	box-shadow: 0px 0px 2px black;
+	border-radius: 20px;
+}
+main {
+	margin-top: 15%;
+	width: 100%;
+}
+.Biografia {
+	width: 100%;
+	border-radius: 0%;
+}
+main div strong p {
+	font-size: 25px;
+	margin-top: 40px;
+}
+main div strong p a img {
+	width: 20%;
+}
+main div strong p a img:hover {
+	margin-right: 0.5%;
+	width: 30%;
+	box-shadow: 0px 0px 0px 10px gray;
+}
+header img {
+	width: 100%;
+	box-shadow: 0px 2px 15px black;
+}
+}
